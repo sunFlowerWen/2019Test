@@ -1,0 +1,16 @@
+git编写信息到添加到库，再到与远程github建立连接，提交
+
+1.cd e:
+2.mkdir learnTest
+3.cd learnTest
+4.git init
+5.vi test.txt
+6.git add test.txt(
+这时可能会遇到错误：当遇到git add <>时出现这种错误时：$ git add readme.txt
+warning: LF will be replaced by CRLF in readme.txt.
+The file will have its original line endings in your working directory.
+解决办法：
+git config --global core.aotocrlf true）
+7.git commit -m "修改的信息注解"
+8.git remote add origin git@github.com:sunFlowerWen/sunFlowerWen.git(与远程库建立链接）
+9.git push origin master(将本地库提交到github中库中）
