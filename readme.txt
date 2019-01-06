@@ -2,4 +2,5 @@
 观摩。
 常回家看看。
 我是分支1。我修改了readme.txt的类容
-我是master，我修改了readme.txt的内容.
+master和feature2提交发生了冲突，我是手动地合并了他们的内容。
+
